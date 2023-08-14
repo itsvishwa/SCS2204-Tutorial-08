@@ -1,0 +1,361 @@
+2023.08.14 18:20:06 INFO  Started: Metals version 1.0.0 in folders 'C:\Users\Vishwa\Documents\MYWORK\scala\patrical 08' for client Visual Studio Code 1.81.1.
+Aug 14, 2023 6:20:06 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.20.1 by Redgate
+Aug 14, 2023 6:20:06 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Aug 14, 2023 6:20:06 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Aug 14, 2023 6:20:06 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\Users\Vishwa\Documents\MYWORK\scala\patrical 08\.metals\metals (H2 2.1)
+Aug 14, 2023 6:20:07 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Aug 14, 2023 6:20:07 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.024s)
+Aug 14, 2023 6:20:07 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Aug 14, 2023 6:20:07 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Aug 14, 2023 6:20:07 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Aug 14, 2023 6:20:07 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Aug 14, 2023 6:20:07 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Aug 14, 2023 6:20:07 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Aug 14, 2023 6:20:07 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.028s)
+2023.08.14 18:20:07 INFO  time: initialize in 0.83s
+2023.08.14 18:20:11 INFO  Running List(C:\Users\Vishwa\AppData\Local\Coursier\data\bin\scala-cli.BAT, setup-ide, C:\Users\Vishwa\Documents\MYWORK\scala\patrical 08)
+2023.08.14 18:20:11 INFO  Attempting to connect to the build server...
+2023.08.14 18:20:11 INFO  Running BSP server List(C:\Users\Vishwa\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\Vishwa\Documents\MYWORK\scala\patrical 08\.scala-build\ide-options-v2.json, C:\Users\Vishwa\Documents\MYWORK\scala\patrical 08)
+2023.08.14 18:20:11 INFO  Attempting to connect to the build server...
+2023.08.14 18:20:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Vishwa\Documents\MYWORK\scala\patrical 08\.metals\bsp.trace.json or C:\Users\Vishwa\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.08.14 18:20:11 INFO  Running BSP server List(C:\Users\Vishwa\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\Vishwa\Documents\MYWORK\scala\patrical 08\.scala-build\ide-options-v2.json, C:\Users\Vishwa\Documents\MYWORK\scala\patrical 08)
+2023.08.14 18:20:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Vishwa\Documents\MYWORK\scala\patrical 08\.metals\bsp.trace.json or C:\Users\Vishwa\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.08.14 18:20:12 INFO  BSP server: Starting compilation server
+2023.08.14 18:20:12 INFO  BSP server: Starting compilation server
+2023.08.14 18:20:17 INFO  no build target found for C:\Users\Vishwa\Documents\MYWORK\scala\patrical 08\Question01.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.08.14 18:20:20 INFO  time: code lens generation in 11s
+2023.08.14 18:20:22 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.08.14 18:20:22 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.08.14 18:20:22 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.08.14 18:20:22 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.08.14 18:20:22 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.08.14 18:20:22 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.08.14 18:20:22 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.08.14 18:20:22 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.08.14 18:20:22 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.14 18:20:22 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.14 18:20:22 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.14 18:20:22 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.14 18:20:22 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.14 18:20:22 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.14 18:20:22 INFO  BSP server: (watching) Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.14 18:20:23 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.14 18:20:23 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.14 18:20:23 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.14 18:20:23 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.14 18:20:23 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.14 18:20:23 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.14 18:20:23 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.14 18:20:23 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.14 18:20:23 INFO  BSP server: (watching) Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.14 18:20:24 INFO  time: Connected to build server in 13s
+2023.08.14 18:20:24 INFO  time: Connected to build server in 13s
+2023.08.14 18:20:24 INFO  Connected to Build server: scala-cli v1.0.0
+2023.08.14 18:20:24 INFO  Connected to Build server: scala-cli v1.0.0
+2023.08.14 18:20:24 INFO  time: Imported build in 0.36s
+2023.08.14 18:20:24 INFO  time: Imported build in 0.42s
+2023.08.14 18:20:25 INFO  Deduplicating compilation of project_bd2c96d2de from bsp client 'scala-cli 1.0.0' (since 4.649s)
+2023.08.14 18:20:26 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 18:20:25 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 18:20:28 INFO  time: indexed workspace in 2.76s
+2023.08.14 18:20:28 INFO  time: indexed workspace in 3.18s
+2023.08.14 18:20:29 INFO  time: compiled project_bd2c96d2de in 3.78s
+2023.08.14 18:21:12 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 18:21:15 INFO  time: compiled project_bd2c96d2de in 2.83s
+2023.08.14 18:21:19 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 18:21:19 INFO  time: compiled project_bd2c96d2de in 0.72s
+Aug 14, 2023 6:27:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 791
+2023.08.14 18:27:46 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 18:27:48 INFO  time: compiled project_bd2c96d2de in 1.49s
+2023.08.14 18:28:04 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 18:28:04 INFO  time: compiled project_bd2c96d2de in 0.79s
+2023.08.14 18:29:07 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 18:29:07 INFO  time: compiled project_bd2c96d2de in 0.61s
+2023.08.14 18:29:47 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 18:29:47 INFO  time: compiled project_bd2c96d2de in 0.71s
+2023.08.14 18:30:20 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 18:30:20 INFO  time: compiled project_bd2c96d2de in 0.42s
+2023.08.14 18:30:54 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 18:30:54 INFO  time: compiled project_bd2c96d2de in 0.35s
+2023.08.14 18:31:39 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 18:31:39 INFO  time: compiled project_bd2c96d2de in 99ms
+2023.08.14 18:31:56 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 18:31:56 INFO  time: compiled project_bd2c96d2de in 81ms
+2023.08.14 18:32:24 INFO  file:///C:/Users/Vishwa/Documents/MYWORK/scala/patrical%2008/Question01.scala:10:11: stale bloop error: Not found: Intest ${getInterset(depositAmount)}
+    print(`Intest ${getInterset(depositAmount)}`)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.08.14 18:32:24 INFO  file:///C:/Users/Vishwa/Documents/MYWORK/scala/patrical%2008/Question01.scala:10:11: stale bloop error: Not found: Intest ${getInterset(depositAmount)}
+    print(`Intest ${getInterset(depositAmount)}`)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.08.14 18:32:24 INFO  file:///C:/Users/Vishwa/Documents/MYWORK/scala/patrical%2008/Question01.scala:10:11: stale bloop error: Not found: Intest ${getInterset(depositAmount)}
+    print(`Intest ${getInterset(depositAmount)}`)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.08.14 18:32:24 INFO  file:///C:/Users/Vishwa/Documents/MYWORK/scala/patrical%2008/Question01.scala:10:11: stale bloop error: Not found: Intest ${getInterset(depositAmount)}
+    print(`Intest ${getInterset(depositAmount)}`)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.08.14 18:32:26 INFO  file:///C:/Users/Vishwa/Documents/MYWORK/scala/patrical%2008/Question01.scala:10:11: stale bloop error: Not found: Intest ${getInterset(depositAmount)}
+    print(`Intest ${getInterset(depositAmount)}`)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.08.14 18:32:26 INFO  file:///C:/Users/Vishwa/Documents/MYWORK/scala/patrical%2008/Question01.scala:10:11: stale bloop error: Not found: Intest ${getInterset(depositAmount)}
+    print(`Intest ${getInterset(depositAmount)}`)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.08.14 18:32:29 INFO  file:///C:/Users/Vishwa/Documents/MYWORK/scala/patrical%2008/Question01.scala:10:11: stale bloop error: Not found: Intest ${getInterset(depositAmount)}
+    print(`Intest ${getInterset(depositAmount)}`)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.08.14 18:32:29 INFO  file:///C:/Users/Vishwa/Documents/MYWORK/scala/patrical%2008/Question01.scala:10:11: stale bloop error: Not found: Intest ${getInterset(depositAmount)}
+    print(`Intest ${getInterset(depositAmount)}`)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.08.14 18:32:29 INFO  file:///C:/Users/Vishwa/Documents/MYWORK/scala/patrical%2008/Question01.scala:10:11: stale bloop error: Not found: Intest ${getInterset(depositAmount)}
+    print(`Intest ${getInterset(depositAmount)}`)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.08.14 18:32:29 INFO  file:///C:/Users/Vishwa/Documents/MYWORK/scala/patrical%2008/Question01.scala:10:11: stale bloop error: Not found: Intest ${getInterset(depositAmount)}
+    print(`Intest ${getInterset(depositAmount)}`)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.08.14 18:32:31 INFO  file:///C:/Users/Vishwa/Documents/MYWORK/scala/patrical%2008/Question01.scala:10:11: stale bloop error: Not found: Intest ${getInterset(depositAmount)}
+    print(`Intest ${getInterset(depositAmount)}`)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.08.14 18:32:31 INFO  file:///C:/Users/Vishwa/Documents/MYWORK/scala/patrical%2008/Question01.scala:10:11: stale bloop error: Not found: Intest ${getInterset(depositAmount)}
+    print(`Intest ${getInterset(depositAmount)}`)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.08.14 18:32:31 INFO  file:///C:/Users/Vishwa/Documents/MYWORK/scala/patrical%2008/Question01.scala:10:11: stale bloop error: Not found: Intest ${getInterset(depositAmount)}
+    print(`Intest ${getInterset(depositAmount)}`)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.08.14 18:32:31 INFO  file:///C:/Users/Vishwa/Documents/MYWORK/scala/patrical%2008/Question01.scala:10:11: stale bloop error: Not found: Intest ${getInterset(depositAmount)}
+    print(`Intest ${getInterset(depositAmount)}`)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.08.14 18:32:34 INFO  file:///C:/Users/Vishwa/Documents/MYWORK/scala/patrical%2008/Question01.scala:10:11: stale bloop error: Not found: Intest ${getInterset(depositAmount)}
+    print(`Intest ${getInterset(depositAmount)}`)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.08.14 18:32:34 INFO  file:///C:/Users/Vishwa/Documents/MYWORK/scala/patrical%2008/Question01.scala:10:11: stale bloop error: Not found: Intest ${getInterset(depositAmount)}
+    print(`Intest ${getInterset(depositAmount)}`)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.08.14 18:32:37 INFO  file:///C:/Users/Vishwa/Documents/MYWORK/scala/patrical%2008/Question01.scala:10:11: stale bloop error: Not found: Intest ${getInterset(depositAmount)}
+    print(`Intest ${getInterset(depositAmount)}`)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.08.14 18:32:37 INFO  file:///C:/Users/Vishwa/Documents/MYWORK/scala/patrical%2008/Question01.scala:10:11: stale bloop error: Not found: Intest ${getInterset(depositAmount)}
+    print(`Intest ${getInterset(depositAmount)}`)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.08.14 18:32:37 INFO  file:///C:/Users/Vishwa/Documents/MYWORK/scala/patrical%2008/Question01.scala:10:11: stale bloop error: Not found: Intest ${getInterset(depositAmount)}
+    print(`Intest ${getInterset(depositAmount)}`)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.08.14 18:32:38 INFO  file:///C:/Users/Vishwa/Documents/MYWORK/scala/patrical%2008/Question01.scala:10:11: stale bloop error: Not found: Intest ${getInterset(depositAmount)}
+    print(`Intest ${getInterset(depositAmount)}`)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.08.14 18:32:44 INFO  file:///C:/Users/Vishwa/Documents/MYWORK/scala/patrical%2008/Question01.scala:10:11: stale bloop error: Not found: Intest ${getInterset(depositAmount)}
+    print(`Intest ${getInterset(depositAmount)}`)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.08.14 18:32:44 INFO  file:///C:/Users/Vishwa/Documents/MYWORK/scala/patrical%2008/Question01.scala:10:11: stale bloop error: Not found: Intest ${getInterset(depositAmount)}
+    print(`Intest ${getInterset(depositAmount)}`)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.08.14 18:32:57 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 18:32:57 INFO  time: compiled project_bd2c96d2de in 0.35s
+2023.08.14 18:33:37 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 18:33:37 INFO  time: compiled project_bd2c96d2de in 90ms
+2023.08.14 18:33:57 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 18:33:57 INFO  time: compiled project_bd2c96d2de in 0.35s
+2023.08.14 18:35:09 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 18:35:09 INFO  time: compiled project_bd2c96d2de in 0.32s
+2023.08.14 18:36:15 WARN  no build target for: C:\Users\Vishwa\Documents\MYWORK\scala\patrical 08\Question02.scala
+2023.08.14 18:36:15 INFO  Deduplicating compilation of project_bd2c96d2de from bsp client 'scala-cli 1.0.0' (since 15m 54.455s)
+2023.08.14 18:36:15 INFO  Disconnecting from scala-cli session...
+2023.08.14 18:36:15 INFO  Shut down connection with build server.
+2023.08.14 18:36:15 INFO  Attempting to connect to the build server...
+2023.08.14 18:36:15 INFO  Running BSP server List(C:\Users\Vishwa\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\Vishwa\Documents\MYWORK\scala\patrical 08\.scala-build\ide-options-v2.json, C:\Users\Vishwa\Documents\MYWORK\scala\patrical 08)
+2023.08.14 18:36:15 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Vishwa\Documents\MYWORK\scala\patrical 08\.metals\bsp.trace.json or C:\Users\Vishwa\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.08.14 18:36:15 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 18:36:15 INFO  time: compiled project_bd2c96d2de in 90ms
+2023.08.14 18:36:19 INFO  time: Connected to build server in 3.17s
+2023.08.14 18:36:19 INFO  Connected to Build server: scala-cli v1.0.0
+2023.08.14 18:36:20 INFO  time: indexed workspace in 0.98s
+2023.08.14 18:36:22 INFO  Refreshed build after change
+Aug 14, 2023 6:36:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1682
+Aug 14, 2023 6:36:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1683
+Aug 14, 2023 6:36:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1684
+2023.08.14 18:52:14 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 18:52:14 INFO  time: compiled project_bd2c96d2de in 92ms
+2023.08.14 18:52:33 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 18:52:33 INFO  time: compiled project_bd2c96d2de in 0.32s
+Aug 14, 2023 6:53:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2336
+2023.08.14 18:53:25 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 18:53:25 INFO  time: compiled project_bd2c96d2de in 0.61s
+2023.08.14 18:54:28 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 18:54:28 INFO  time: compiled project_bd2c96d2de in 94ms
+2023.08.14 18:55:10 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 18:55:10 INFO  time: compiled project_bd2c96d2de in 0.26s
+2023.08.14 19:00:12 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 19:00:12 INFO  time: compiled project_bd2c96d2de in 0.29s
+Aug 14, 2023 7:00:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2883
+2023.08.14 19:02:04 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 19:02:04 INFO  time: compiled project_bd2c96d2de in 0.25s
+2023.08.14 19:03:22 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 19:03:22 INFO  time: compiled project_bd2c96d2de in 0.13s
+2023.08.14 19:05:21 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 19:05:21 INFO  time: compiled project_bd2c96d2de in 0.1s
+2023.08.14 19:05:26 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 19:05:26 INFO  time: compiled project_bd2c96d2de in 0.12s
+2023.08.14 19:06:33 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 19:06:33 INFO  time: compiled project_bd2c96d2de in 0.27s
+Aug 14, 2023 7:07:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3868
+2023.08.14 19:07:32 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 19:07:32 INFO  time: compiled project_bd2c96d2de in 86ms
+2023.08.14 19:08:40 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 19:08:40 INFO  time: compiled project_bd2c96d2de in 0.15s
+2023.08.14 19:09:08 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 19:09:08 INFO  time: compiled project_bd2c96d2de in 0.42s
+2023.08.14 19:10:06 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 19:10:06 INFO  time: compiled project_bd2c96d2de in 0.25s
+2023.08.14 19:10:41 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 19:10:41 INFO  time: compiled project_bd2c96d2de in 0.26s
+2023.08.14 19:11:00 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 19:11:00 INFO  time: compiled project_bd2c96d2de in 0.21s
+2023.08.14 19:12:04 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 19:12:04 INFO  time: compiled project_bd2c96d2de in 0.34s
+2023.08.14 19:12:17 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 19:12:17 INFO  time: compiled project_bd2c96d2de in 0.29s
+2023.08.14 19:12:24 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 19:12:24 INFO  time: compiled project_bd2c96d2de in 0.28s
+2023.08.14 19:12:44 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 19:12:44 INFO  time: compiled project_bd2c96d2de in 0.33s
+2023.08.14 19:12:58 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 19:12:58 INFO  time: compiled project_bd2c96d2de in 0.22s
+2023.08.14 19:14:42 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 19:14:42 INFO  time: compiled project_bd2c96d2de in 0.44s
+2023.08.14 19:14:55 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 19:14:55 INFO  time: compiled project_bd2c96d2de in 0.29s
+2023.08.14 19:15:21 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 19:15:21 INFO  time: compiled project_bd2c96d2de in 0.2s
+2023.08.14 19:15:55 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 19:15:55 INFO  time: compiled project_bd2c96d2de in 0.23s
+Aug 14, 2023 7:18:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5104
+2023.08.14 19:18:47 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 19:18:47 INFO  time: compiled project_bd2c96d2de in 0.61s
+2023.08.14 19:19:44 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 19:19:44 INFO  time: compiled project_bd2c96d2de in 0.11s
+2023.08.14 19:19:53 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 19:19:53 INFO  time: compiled project_bd2c96d2de in 0.23s
+2023.08.14 19:20:02 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 19:20:02 INFO  time: compiled project_bd2c96d2de in 0.2s
+2023.08.14 19:20:33 WARN  no build target for: C:\Users\Vishwa\Documents\MYWORK\scala\patrical 08\Question03.scala
+2023.08.14 19:20:33 INFO  Deduplicating compilation of project_bd2c96d2de from bsp client 'scala-cli 1.0.0' (since 1h 12.217s)
+2023.08.14 19:20:33 INFO  Deduplicating compilation of project_bd2c96d2de from bsp client 'scala-cli 1.0.0' (since 1h 12.372s)
+2023.08.14 19:20:33 INFO  Deduplicating compilation of project_bd2c96d2de-test from bsp client 'scala-cli 1.0.0' (since 1h 12.39s)
+2023.08.14 19:20:33 INFO  Disconnecting from scala-cli session...
+2023.08.14 19:20:33 INFO  Shut down connection with build server.
+2023.08.14 19:20:33 INFO  Attempting to connect to the build server...
+2023.08.14 19:20:33 INFO  Running BSP server List(C:\Users\Vishwa\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\Vishwa\Documents\MYWORK\scala\patrical 08\.scala-build\ide-options-v2.json, C:\Users\Vishwa\Documents\MYWORK\scala\patrical 08)
+2023.08.14 19:20:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Vishwa\Documents\MYWORK\scala\patrical 08\.metals\bsp.trace.json or C:\Users\Vishwa\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.08.14 19:20:33 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 19:20:33 INFO  time: compiled project_bd2c96d2de in 66ms
+2023.08.14 19:20:36 INFO  time: Connected to build server in 3.09s
+2023.08.14 19:20:36 INFO  Connected to Build server: scala-cli v1.0.0
+2023.08.14 19:20:37 INFO  time: indexed workspace in 0.97s
+2023.08.14 19:20:39 INFO  Refreshed build after change
+2023.08.14 19:20:50 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 19:20:50 INFO  time: compiled project_bd2c96d2de in 0.21s
+2023.08.14 19:22:25 WARN  no build target for: C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 07\Question03.scala
+2023.08.14 19:22:28 INFO  Shutting down server
+2023.08.14 19:22:28 INFO  shutting down Metals
+2023.08.14 19:22:28 INFO  Shut down connection with build server.
+2023.08.14 19:22:28 INFO  Exiting server
+2023.08.14 19:36:40 INFO  Started: Metals version 1.0.0 in folders 'C:\Users\Vishwa\Documents\MYWORK\scala\patrical 08' for client Visual Studio Code 1.81.1.
+Aug 14, 2023 7:36:40 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.20.1 by Redgate
+Aug 14, 2023 7:36:40 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Aug 14, 2023 7:36:40 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Aug 14, 2023 7:36:40 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\Users\Vishwa\Documents\MYWORK\scala\patrical 08\.metals\metals (H2 2.1)
+Aug 14, 2023 7:36:40 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.029s)
+Aug 14, 2023 7:36:40 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Aug 14, 2023 7:36:40 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.08.14 19:36:41 INFO  time: initialize in 0.76s
+2023.08.14 19:36:43 INFO  Attempting to connect to the build server...
+2023.08.14 19:36:43 INFO  Running BSP server List(C:\Users\Vishwa\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\Vishwa\Documents\MYWORK\scala\patrical 08\.scala-build\ide-options-v2.json, C:\Users\Vishwa\Documents\MYWORK\scala\patrical 08)
+2023.08.14 19:36:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Vishwa\Documents\MYWORK\scala\patrical 08\.metals\bsp.trace.json or C:\Users\Vishwa\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.08.14 19:36:43 WARN  No build session currently active to reload.
+2023.08.14 19:36:47 INFO  time: Connected to build server in 4.11s
+2023.08.14 19:36:47 INFO  Connected to Build server: scala-cli v1.0.0
+2023.08.14 19:36:48 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 19:36:49 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 19:36:50 INFO  no build target found for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 07\Question03.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.08.14 19:36:50 INFO  time: code lens generation in 7.04s
+2023.08.14 19:36:50 INFO  time: Imported build in 0.35s
+2023.08.14 19:36:52 INFO  no build target found for C:\Users\Vishwa\Documents\MYWORK\scala\patrical 08\Question03.scala. Using presentation compiler with project's scala-library version: 3.3.0
+Aug 14, 2023 7:36:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17
+2023.08.14 19:36:52 INFO  file:///C:/Users/Vishwa/Documents/MYWORK/scala/patrical%2008/Question03.scala:1:84: stale bloop error: 'then' expected, but '}' found
+val toUpper = (s: String) => s.map{letter => if letter.isLower (letter - 32).toChar}
+                                                                                   ^
+2023.08.14 19:36:52 INFO  file:///C:/Users/Vishwa/Documents/MYWORK/scala/patrical%2008/Question03.scala:2:84: stale bloop error: 'then' expected, but '}' found
+val toLower = (s: String) => s.map{letter => if letter.isUpper (letter + 32).toChar}
+                                                                                   ^
+2023.08.14 19:36:52 INFO  file:///C:/Users/Vishwa/Documents/MYWORK/scala/patrical%2008/Question03.scala:1:49: stale bloop error: method isLower in class RichChar does not take parameters
+val toUpper = (s: String) => s.map{letter => if letter.isLower (letter - 32).toChar}
+                                                ^^^^^^^^^^^^^^
+2023.08.14 19:36:52 INFO  file:///C:/Users/Vishwa/Documents/MYWORK/scala/patrical%2008/Question03.scala:9:34: stale bloop error: Found:    (toUpper : String => IndexedSeq[Unit])
+Required: String => String
+    println(formatNames("Benny")(toUpper));
+                                 ^^^^^^^
+2023.08.14 19:36:52 INFO  file:///C:/Users/Vishwa/Documents/MYWORK/scala/patrical%2008/Question03.scala:10:31: stale bloop error: Found:    (toUpper : String => IndexedSeq[Unit])
+Required: String => String
+    println(formatNames("Ni")(toUpper) + "roshan");
+                              ^^^^^^^
+2023.08.14 19:36:52 INFO  file:///C:/Users/Vishwa/Documents/MYWORK/scala/patrical%2008/Question03.scala:2:49: stale bloop error: method isUpper in class RichChar does not take parameters
+val toLower = (s: String) => s.map{letter => if letter.isUpper (letter + 32).toChar}
+                                                ^^^^^^^^^^^^^^
+2023.08.14 19:36:52 INFO  file:///C:/Users/Vishwa/Documents/MYWORK/scala/patrical%2008/Question03.scala:11:30: stale bloop error: Found:    (toLower : String => IndexedSeq[Unit])
+Required: String => String
+    println(formatNames("S")(toLower) + "aman");
+                             ^^^^^^^
+2023.08.14 19:36:52 INFO  file:///C:/Users/Vishwa/Documents/MYWORK/scala/patrical%2008/Question03.scala:12:40: stale bloop error: Found:    (toUpper : String => IndexedSeq[Unit])
+Required: String => String
+    println("kumar" + formatNames("a")(toUpper));
+                                       ^^^^^^^
+2023.08.14 19:36:55 INFO  time: code lens generation in 7s
+2023.08.14 19:36:55 INFO  time: code lens generation in 11s
+2023.08.14 19:36:55 INFO  time: code lens generation in 2.88s
+2023.08.14 19:36:55 INFO  time: code lens generation in 1.02s
+2023.08.14 19:36:55 INFO  time: code lens generation in 8.49s
+2023.08.14 19:36:55 INFO  time: code lens generation in 3.17s
+2023.08.14 19:36:56 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 19:36:56 INFO  time: compiled project_bd2c96d2de in 0.71s
+2023.08.14 19:36:57 INFO  time: indexed workspace in 6.42s
+2023.08.14 19:36:57 WARN  no build target for: C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 07\Question03.scala
+2023.08.14 19:36:57 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 19:36:59 INFO  time: compiled project_bd2c96d2de in 1.27s
+2023.08.14 19:36:59 WARN  no build target for: C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 07\Question03.scala
+2023.08.14 19:36:59 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 19:37:00 INFO  time: compiled project_bd2c96d2de in 0.94s
+2023.08.14 19:37:34 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 19:37:34 INFO  time: compiled project_bd2c96d2de in 0.38s
+2023.08.14 19:39:17 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 19:39:17 INFO  time: compiled project_bd2c96d2de in 0.45s
+2023.08.14 19:41:04 INFO  Shutting down server
+2023.08.14 19:41:04 INFO  shutting down Metals
+2023.08.14 19:41:04 INFO  Shut down connection with build server.
+2023.08.14 19:41:04 INFO  Exiting server
